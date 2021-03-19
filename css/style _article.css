@@ -149,12 +149,10 @@ nav a, .head01 ul a{
 	/* border: 1px solid red; */
 }
 
-
 nav a:hover{
 	color: #FFB703;
-	font-weight: bold;
+	/* font-weight: bold; */
 }
-
 
 nav .menu{
 	flex-basis: 100%;
@@ -293,13 +291,38 @@ li .cal::after{
   content:"183";
   color:red;
 }*/
+/*------ 麵包屑 開始 ------*/
+
+
+ul.breadcrumb {
+	padding: 8px 16px;
+	box-sizing: border-box;
+	list-style: none;
+	background-color: #eee;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+ul.breadcrumb li {
+	display: inline;
+}
+ul.breadcrumb li+li:before {
+	padding: 8px;
+	color: black;
+	content: "/\00a0";
+}
+ul.breadcrumb li a {
+	color: #067BFE;
+	text-decoration: none;
+}
+
 
 /*------ 文章區塊主要內容開始 ------*/
 
 article{
 	/*background-color: #D3D5D7;*/
 	/*outline: 1px solid #b9b9b9;*/
-	margin: 10px auto;
+	/* margin: 10px auto; */
 	width: 100%;
 	max-width: 1200px;
 	font-family: 微軟正黑體;
