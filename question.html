@@ -3,230 +3,313 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style _question.css">
-	<title>常見問題</title>
+	<link rel="stylesheet" href="./css/style _question.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<title>速配</title>
 </head>
 <body>
-	<div class="wrapper">
 
-		<!-- TOP  Block -->
-		<div class="top">
+	<!-- 網頁的標頭開始 -->
+  
+  <header>
+  <nav class="head01">
+  	<input type="checkbox" id="burger">  	
+  	<a href="index.html"><img src="img/LOGO.png"></a>
+  	<label for="burger" class="burger_btn"><span>選單</span></label>
+  	<ul class="menu2">
+		<li><a href="about.html">關於我們</a></li>
+		<li><a href="main.html">速配管理</a></li>
+		<li><a href="article.html">健身文章</a></li>
+		<li><a href="question.html">常見問題</a></li>
+		<li><a href="store.html">店家推薦</a></li>
+	</ul>
+  </nav>
+  </header>
 
-			<div class="top-logo">
-			<a href="index.html"><img src="img/LOGO.png" title="速配"></a>
-			</div>
 
-			<ul>
-        <li class="nav-list">
-					<a href="about.html"><img src="img/icon_1.png" title="關於我們"></a>
-					<a href="about.html">關於我們</a>
-				</li>
-				<li class="nav-list">
-					<a href="main.html"><img src="img/icon_2.png" title="速配管理"></a>
-					<a href="main.html">速配管理</a>
-				</li>
-				<li class="nav-list">
-					<a href="article.html"><img src="img/icon_3.png" title="健身文章"></a>
-					<a href="article.html">健身文章</a>
-				</li>
-				<li class="nav-list">
-					<a href="question.html"><img src="img/icon_4.png" title="常見問題"></a>
-					<a href="question.html">常見問題</a>
-				</li>
-				<li class="nav-list">
-					<a href="store.html"><img src="img/icon_5.png" title="店家推薦"></a>		
-					<a href="store.html">店家推薦</a>
-				</li>
-			</ul>
-		</div>
+  	<!-- 網頁的選單、導覽開始 -->
+	<nav>
 
-		<!---------- Main Block ---------->
-		<div class="question_section">
+   <div class=logo></div>
+   
+		<ul class="menu">
+			<li><a href="about.html">關於我們</a></li>
+			<li><a href="main.html">速配管理</a></li>
+			<li><a href="article.html">健身文章</a></li>
+			<li><a href="question.html">常見問題</a></li>
+			<li><a href="store.html">店家推薦</a></li>
+		</ul>
 
-			<div class="question_section_1">
-				<div class="question_section-box_1">
+	</nav>
 
-					<div class="bread-2">
-					<!-- 麵包屑 -->
-					<p>速配 / 常見問題 </p>	
+	<!-- 網頁的選單、導覽結束 -->
+
+
+	<!-- 麵包屑 開始 -->
+	<ul class="breadcrumb">
+    <li><a href="index.html">速配</a></li>
+    <li><a href="question.html".html">常見問題</a></li>
+</ul>
+
+<!-- 麵包屑 結束 -->
+
+<!-- 圖片區塊 開始 -->
+
+	<main>
+		<!-- <img src="./img/aboutus.jpg"> -->
+		<div class="text">
+		<p>詢問度最高的大健身疑問</p>
+	</div>
+		</main>
+
+<!-- 文章區塊主要內容開始 -->
+	<article>
+		<h2 class="h2">十大熱門問答</h2>
+		<div class="container demo">
+
+	
+			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+		
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingOne">
+						<h4 class="panel-title">
+							<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								<i class="more-less glyphicon glyphicon-plus"></i>
+								Q1 : 為什麼教練課這麼貴？
+							</a>
+						</h4>
 					</div>
-
-					<div class="question_section-main_1">
-						<h2>常見問題</h2>
-						<p>你的所有疑問都在這裡可以找到！</p>
+					<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+						<div class="panel-body">
+							一對一健身教練的收費方式為<b><font color=##067bfe>一次 45 分鐘 ~ 1 小時</font></b>。
+						</br></br>根據教練的經驗、證照、比賽成績，價格大部分會落在<b><font color=##067bfe> 1 次 1000 ~ 2000 元</font></b>。
+						</br></br>一對一訓練的目的是能夠讓教練根據每個人的身體狀況 ，詳細調整動作，以達到最佳運動表現及減少受傷的風險，此外，教練也會進一步了解學生的飲食攝取狀況，並給予適當的建議。
+						</div>
 					</div>
 				</div>
-			</div>
-
-		<!-- Question Block -->
-		<div class="question_block">
-			<div class="question_block_box">
-				<h1>常見熱門問題</h1>
-				<div class="question list_1">
-					<div>
-					<img src="img/Question icon.png" alt="">
-					<span>為什麼教練課這麼貴？</span>
+		
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingTwo">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								<i class="more-less glyphicon glyphicon-plus"></i>
+								Q2 : 如何靠運動有效增肌 ？
+							</a>
+						</h4>
 					</div>
-					<div>
-					<img src="img/Answer icon.png" alt="">
-					<span>一對一健身教練的收費方式為一次45分鐘~1小時。根據教練的經驗、證照、比賽成績，價格大部分會落在1次1000~2000元。一對一訓練的目的是能夠讓教練根據每個人的身體狀況 ，詳細調整動作，以達到最佳運動表現及減少受傷的風險，此外，教練也會進一步了解學生的飲食攝取狀況，並給予適當的建議。</span>
-					</div>
-				</div>
-				<div class="question list_1">
-					<div>
-					<img src="img/Question icon.png" alt="">
-					<span>為什麼教練課這麼貴？</span>
-					</div>
-					<div>
-					<img src="img/Answer icon.png" alt="">
-					<span>一對一健身教練的收費方式為一次45分鐘~1小時。根據教練的經驗、證照、比賽成績，價格大部分會落在1次1000~2000元。一對一訓練的目的是能夠讓教練根據每個人的身體狀況 ，詳細調整動作，以達到最佳運動表現及減少受傷的風險，此外，教練也會進一步了解學生的飲食攝取狀況，並給予適當的建議。</span>
+					<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+						<div class="panel-body">
+							有效增肌兩大重點，訓練部分「量(組數)和強度(品質)」；攝取飲食部分「蛋白質和碳水化合物」。
+						</br></br>
+							就運動來說「有做動作」和「把動作做好」效果完全不一樣。
+						</br></br>基本上，紮實訓練半年的時間可以把基礎打得很好，也會看到訓練的效果。
+					  </br></br>另外，要有個觀念，有氧運動是在分解肌肉，重量訓練是在合成，如果一直做高強度、長時間的有氧，其實不助於肌肉合成。
+				    </br></br>重量訓練的強度、數量夠、攝取營養也夠，一周做三次訓練效果應該會不錯。如果今天已經做了高強度的有氧運動，當天重量訓練通常也不會做太強，這是相對的。
+						</div>
 					</div>
 				</div>
-				<div class="question list_1">
-					<div>
-					<img src="img/Question icon.png" alt="">
-					<span>為什麼教練課這麼貴？</span>
+		
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingThree">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								<i class="more-less glyphicon glyphicon-plus"></i>
+								Q3 : 健身後容易下背痛怎麼辦？
+							</a>
+						</h4>
 					</div>
-					<div>
-					<img src="img/Answer icon.png" alt="">
-					<span>一對一健身教練的收費方式為一次45分鐘~1小時。根據教練的經驗、證照、比賽成績，價格大部分會落在1次1000~2000元。一對一訓練的目的是能夠讓教練根據每個人的身體狀況 ，詳細調整動作，以達到最佳運動表現及減少受傷的風險，此外，教練也會進一步了解學生的飲食攝取狀況，並給予適當的建議。</span>
+					<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+						<div class="panel-body">
+							健身時，其實不應該出現下背痛狀況，通常會出現的原因有：姿勢不正確、核心太弱、呼吸不正確產生努責現象...等。
+						</div>
 					</div>
-				</div>
-				<div class="question list_1">
-					<div>
-					<img src="img/Question icon.png" alt="">
-					<span>為什麼教練課這麼貴？</span>
-					</div>
-					<div>
-					<img src="img/Answer icon.png" alt="">
-					<span>一對一健身教練的收費方式為一次45分鐘~1小時。根據教練的經驗、證照、比賽成績，價格大部分會落在1次1000~2000元。一對一訓練的目的是能夠讓教練根據每個人的身體狀況 ，詳細調整動作，以達到最佳運動表現及減少受傷的風險，此外，教練也會進一步了解學生的飲食攝取狀況，並給予適當的建議。</span>
-					</div>
-				</div>
-				<div class="question list_1">
-					<div>
-					<img src="img/Question icon.png" alt="">
-					<span>為什麼教練課這麼貴？</span>
-					</div>
-					<div>
-					<img src="img/Answer icon.png" alt="">
-					<span>一對一健身教練的收費方式為一次45分鐘~1小時。根據教練的經驗、證照、比賽成績，價格大部分會落在1次1000~2000元。一對一訓練的目的是能夠讓教練根據每個人的身體狀況 ，詳細調整動作，以達到最佳運動表現及減少受傷的風險，此外，教練也會進一步了解學生的飲食攝取狀況，並給予適當的建議。</span>
-					</div>
-				</div>
-				<div class="question list_1">
-					<div>
-					<img src="img/Question icon.png" alt="">
-					<span>為什麼教練課這麼貴？</span>
-					</div>
-					<div>
-					<img src="img/Answer icon.png" alt="">
-					<span>一對一健身教練的收費方式為一次45分鐘~1小時。根據教練的經驗、證照、比賽成績，價格大部分會落在1次1000~2000元。一對一訓練的目的是能夠讓教練根據每個人的身體狀況 ，詳細調整動作，以達到最佳運動表現及減少受傷的風險，此外，教練也會進一步了解學生的飲食攝取狀況，並給予適當的建議。</span>
-					</div>
-				</div>
-				<div class="question list_1">
-					<div>
-					<img src="img/Question icon.png" alt="">
-					<span>為什麼教練課這麼貴？</span>
-					</div>
-					<div>
-					<img src="img/Answer icon.png" alt="">
-					<span>一對一健身教練的收費方式為一次45分鐘~1小時。根據教練的經驗、證照、比賽成績，價格大部分會落在1次1000~2000元。一對一訓練的目的是能夠讓教練根據每個人的身體狀況 ，詳細調整動作，以達到最佳運動表現及減少受傷的風險，此外，教練也會進一步了解學生的飲食攝取狀況，並給予適當的建議。</span>
-					</div>
-				</div>
-				<div class="question list_1">
-					<div>
-					<img src="img/Question icon.png" alt="">
-					<span>為什麼教練課這麼貴？</span>
-					</div>
-					<div>
-					<img src="img/Answer icon.png" alt="">
-					<span>一對一健身教練的收費方式為一次45分鐘~1小時。根據教練的經驗、證照、比賽成績，價格大部分會落在1次1000~2000元。一對一訓練的目的是能夠讓教練根據每個人的身體狀況 ，詳細調整動作，以達到最佳運動表現及減少受傷的風險，此外，教練也會進一步了解學生的飲食攝取狀況，並給予適當的建議。</span>
-					</div>
-				</div>
-				<div class="question list_1">
-					<div>
-					<img src="img/Question icon.png" alt="">
-					<span>為什麼教練課這麼貴？</span>
-					</div>
-					<div>
-					<img src="img/Answer icon.png" alt="">
-					<span>一對一健身教練的收費方式為一次45分鐘~1小時。根據教練的經驗、證照、比賽成績，價格大部分會落在1次1000~2000元。一對一訓練的目的是能夠讓教練根據每個人的身體狀況 ，詳細調整動作，以達到最佳運動表現及減少受傷的風險，此外，教練也會進一步了解學生的飲食攝取狀況，並給予適當的建議。</span>
-					</div>
-				</div>
-				<div class="question list_1">
-					<div>
-					<img src="img/Question icon.png" alt="">
-					<span>為什麼教練課這麼貴？</span>
-					</div>
-					<div>
-					<img src="img/Answer icon.png" alt="">
-					<span>一對一健身教練的收費方式為一次45分鐘~1小時。根據教練的經驗、證照、比賽成績，價格大部分會落在1次1000~2000元。一對一訓練的目的是能夠讓教練根據每個人的身體狀況 ，詳細調整動作，以達到最佳運動表現及減少受傷的風險，此外，教練也會進一步了解學生的飲食攝取狀況，並給予適當的建議。</span>
-					</div>
-				</div>
-			</div>
-
-
-
-
-		</div>
-		<!-- Footer -->
-		<footer>
-			<div class="footer_all">
-			<!-- 左上LOGO -->
-			<div class="footer_logo">
-			<img src="img/LOGO.png" title="飲食管理">
-			</div>
-      <!-- 底層三大分類 -->
-			<div class="footer-sel">
-
-				<div class="footer_content_1">
-					<h3>內容分類</h3>
-					<ul>
-						<li><a href="about.html">關於我們</a></li>
-						<li><a href="main.html">速配管理</a></li>
-						<li><a href="question.html">常見問題</a></li>
-						<li><a href="store.html">店家推薦</a></li>
-						<li><a href="form.html">聯絡我們</a></li>
-					</ul>
 				</div>
 
-				<div class="footer_content_2">
-					<h3>文章分類</h3>
-					<ul>
-						<li><a href="article.html">重訓教學</a></li>
-						<li><a href="article.html">健康知識</a></li>
-						<li><a href="article.html">飲食知識</a></li>
-						<li><a href="article.html">減重知識</a></li>
-						<li><a href="article.html">更多文章</a></li>
-					</ul>
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingFour">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+								<i class="more-less glyphicon glyphicon-plus"></i>
+								Q4 : 怎麼瘦大腿效果最好？
+							</a>
+						</h4>
+					</div>
+					<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+						<div class="panel-body">
+							最常見的腿粗原因有兩種，解決方法也不太一樣：
+						</br>
+            腿部脂肪太多：需做減脂運動，記得，運動的品質十分重要。
+					</br></br>腿部浮腫：從飲食下手，吃清淡一點的食物之外，一定要多喝水。
+						</div>
+					</div>
 				</div>
 
-				<div class="footer_content_3">
-					<h3>好站連結</h3>
-					<ul>
-						<li><a href="#">康健雜誌</a></li>
-						<li><a href="#">iFit愛瘦身</a></li>
-						<li><a href="#">PEETA FITNESS</a></li>
-						<li><a href="#">NOTORIOUS</a></li>
-						<li><a href="#">知名營養師</a></li>
-					</ul>
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingFive">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+								<i class="more-less glyphicon glyphicon-plus"></i>
+								Q5 : 熱門飲食法，真的健康嗎？
+							</a>
+						</h4>
+					</div>
+					<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+						<div class="panel-body">
+							所有能減少卡路里的飲食都能減肥，但是不是健康呢？
+						</br></br>首先，肥胖或超重的人減重5%到10%，不管是如何實現的，都可以改善健康狀況。
+					  </br></br>但是，改善可能不像溜溜球節食所導致的負面後果那麼明顯，這些負面後果包括心血管損傷、新陳代謝改變和免疫系統功能下降。
+					  </br></br>因此，健康的飲食有避免負面後果，在這須建立在持續「緩慢」減肥（每周不超過1到2磅[0.5到0.9公斤]）。
+						</div>
+					</div>
 				</div>
 
-			</div>
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingSix">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+								<i class="more-less glyphicon glyphicon-plus"></i>
+								Q6 : 熱門飲食法，是否提倡運動並重？
+							</a>
+						</h4>
+					</div>
+					<div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+						<div class="panel-body">
+							營養只是有利於體重管理改變的長期生活方式之一。加入運動更能透過增加卡路里差來加速減肥，還是保持體重所必不可少的。
+						</br></br>事實上，針對美國國家體重控制註冊中心的成功節食者所做的調查表明，體育運動是保持達到減肥的重要因素。
+					  </br></br>《2015-2020年膳食指南》建議每周參加150分鐘強度適中或90分鐘劇烈的有氧體育活動（USDA，2015年）。
+						</div>
+					</div>
+				</div>
 
-			<div class="footer_social">
-				<h3>Follow Us</h3>
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingSeven">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+								<i class="more-less glyphicon glyphicon-plus"></i>
+								Q7 : 運動會抑制食慾嗎？
+							</a>
+						</h4>
+					</div>
+					<div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+						<div class="panel-body">
+							研究表明，在劇烈運動後的前四個小時，食慾會下降，然後恢復正常。
+						</br></br>但是，食慾調整是一個非常複雜的過程，取決於胰島素、激素、心理因素和血糖水平。
+					  </br></br>這複雜性讓人很難概括運動對食慾的影響。總體而言，參加適度運動的人會與不運動時攝入同等數量的卡路里，或者只是多一點點。
+					  </br></br>競技性運動員總體來說在運動後會比平時攝入很多食物，但是他們通常也會燃燒的卡路里遠多於他們攝入的卡路里。
+						</div>
+					</div>
+				</div>
 
-				<ul>
-					<li><a href="https://www.facebook.com/"><img src="img/facebook.png" title="facebook"></a></li>
-					<li><a href="#"><img src="img/instagram.png" title="instagram"></a></li>
-					<li><a href="#"><img src="img/line.png" title="line"></a></li>
-				</ul>
-			</div>
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingEight">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+								<i class="more-less glyphicon glyphicon-plus"></i>
+								Q8 : 一個人應該在進食後多久再運動？
+							</a>
+						</h4>
+					</div>
+					<div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+						<div class="panel-body">
+							一般來說，建議鍛鍊者在飽餐之後三小時左右再餐與劇烈的運動項目。
+						</br></br>這也就是一次均衡的進食（包括碳水化合物、蛋白質和脂肪）需要多長時間才能從胃進入小腸，營養素在這裡進行吸收並提供身體所需的能量。
+					  </br></br>在食物從胃排空之前，就進行運動會導致腹部絞痛不適。但是，每個人的回答都各不相同，所以沒有固定的時間。
+					  </br></br>如果一個人在早上運動，那麼簡單的高碳水化合物點心可能有助於在鍛鍊時提供一些能量，而不會帶來太多不適。
+					  </br></br>一般而言，碳水化合物可以在1個小時左右消化，蛋白質需要大約2個小時，脂肪需要大約4個小時，但是要記住，大部分食物都是這三種大量營養素的組合。
+						</div>
+					</div>
+				</div>
+
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingNine">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+								<i class="more-less glyphicon glyphicon-plus"></i>
+								Q9 : 生理期可以運動嗎？生理期間適合減重嗎？
+							</a>
+						</h4>
+					</div>
+					<div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
+						<div class="panel-body">
+							可以的，但建議做輕度的運動，例如伸展運動等。
+						</br>生理期間身體在排毒，對食物利用的代謝率提高，確實是減肥的好時機。
+						</div>
+					</div>
+				</div>
+
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingTen">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+								<i class="more-less glyphicon glyphicon-plus"></i>
+								Q10 : 傳說運動後的「黃金補充期」是什麼？
+							</a>
+						</h4>
+					</div>
+					<div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
+						<div class="panel-body">
+							關鍵提示「黃金補充期45分鐘」：
+						</br>運動後補充營養的時間ASAP愈快愈好，盡量在運動後的45分鐘內補充完畢，有效吸收且不容易胖。
+						</br></br>如果45分鐘內連飲料都無法喝，身體會消耗肌肉來補充肝糖，也就是已造成肌肉量下降的情況，所以建議運動後儘快吃東西！
+
+						</div>
+					</div>
+				</div>
+		
 			</div>
 			
-		</footer>
+		</ul>
+	</article>
 
+	<!-- 文章區塊主要內容結束 -->
+
+
+
+  <!-- 網頁的頁尾內容開始 -->
+<footer>
+	<div class="footer_left">
+		<div class="img">
+	<a href="index.html"><img src="img/LOGO.png"></a>
+	  </div>
+	<ul class="footer_list">
+		<li><a href="about.html">關於我們</a></li>
+		<li><a href="main.html">速配管理</a></li>
+		<li><a href="article.html.html">健身文章</a></li>
+	
+		<li><a href="question.html">常見問題</a></li>
+		<li><a href="store.html">店家推薦</a></li>
+		<li><a href="form.html">聯絡我們</a></li>
+
+	</ul>
 	</div>
+
+	<div class="social">
+		<h3>Follow Us</h3>
+		<div class="btn">
+			<a href="#"><img src="./img/facebook.png"></a>
+			<a href="#"><img src="img/instagram.png"></a>
+			<a href="#"><img src="./img/youtube.png"></a>
+		</div>
+	</div>
+	<p>© 2021 Copyright, All Rights Reserved.</p>
+</footer>
+  <!-- 網頁的頁尾內容結束 -->
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  
+	<script>
+			function toggleIcon(e) {
+	$(e.target)
+	.prev('.panel-heading')
+	.find(".more-less")
+	.toggleClass('glyphicon-plus glyphicon-minus');
+	}
+	$('.panel-group').on('hidden.bs.collapse', toggleIcon);
+	$('.panel-group').on('shown.bs.collapse', toggleIcon);
+	</script>
 
 </body>
 </html>
