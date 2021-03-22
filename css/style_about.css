@@ -294,14 +294,14 @@ article ul{
 }
 
 article .sel{
-	max-width: 350px;
+	max-width: 500px;
 	margin: 20px 0;
 	transition: opacity 1s ease;
 	/*{border-style:outset;*/
 	/* outline: 1px solid #D3D5D7; */
 	/*padding: 0 20px;*/
 	/*width: 300px;*/
-	/*outline: 2px solid blue;*/
+	outline: 2px solid blue;
 }
 
 article .sel:hover{
@@ -328,7 +328,7 @@ article .article_box1{
 }
 
 .article_box1 img{
-	width: 350px;
+	width: 500px;
 }
 
 @media screen and (max-width: 500px) {
@@ -343,6 +343,7 @@ article .article_box1{
 	font-weight: bold;
 	letter-spacing: 1.5px;
 	padding: 5px 0;
+	text-align: center;
 }
 
 .article_box1 p{
@@ -356,11 +357,11 @@ article .article_box1{
 
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   .article_box1 p  {
     display: none;
   }
- }
+ } */
 
 
 /*------ 網頁的頁尾內容開始------*/
