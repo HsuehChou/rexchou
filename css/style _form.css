@@ -319,6 +319,12 @@ article .sel{
   }
  }
 
+ @media screen and (min-width: 390px) (max-width: 844px)and {
+  article .sel  {
+    max-width: 150px;
+  }
+ }
+
 article .article_box1{
 	/* background-color: #fff; */
 }
@@ -330,6 +336,12 @@ article .article_box1{
 @media screen and (max-width: 500px) {
   .article_box1 img  {
     width: 150px;
+  }
+ }
+
+ @media screen and (min-width: 390px) (max-width: 844px)and {
+  .article_box1 img {
+    max-width: 150px;
   }
  }
 

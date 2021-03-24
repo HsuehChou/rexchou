@@ -354,12 +354,13 @@ text-align: center;
 	line-height: 1.5;
 	padding: 0 10px;
 	padding-bottom: 20px;
+	text-align: center;
 
 }
 
 @media screen and (max-width: 500px) {
   .article_box1 p  {
-    display: none;
+    text-align: center;
   }
  }
 
