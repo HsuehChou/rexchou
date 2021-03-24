@@ -398,6 +398,7 @@ article .article_box1{
 .panel-title > a {
 	display: block;
 	padding: 15px;
+	font-size: 16px;
 	text-decoration: none;
 }
 
@@ -407,10 +408,23 @@ article .article_box1{
 	text-decoration: none;
 }
 
+@media screen and (max-width: 500px) {
+	.panel-title > a  {
+		font-size: 14px;
+  }
+ }
+
 .panel-body{
-	font-size: 16px;
+	font-size: 14px;
 	color: #3a3a3a;
 }
+
+@media screen and (max-width: 500px) {
+	.panel-body {
+		font-size: 12px;
+  }
+ }
+
 
 .more-less {
 	float: right;
@@ -428,6 +442,8 @@ content:"\2b" ;
 .glyphicon-minus::before{
 	content:"\2212" ;
 	}
+
+
 
 
 /*------ 網頁的頁尾內容開始------*/
