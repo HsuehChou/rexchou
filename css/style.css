@@ -625,7 +625,9 @@ footer li{
   footer li  {
   	flex-basis: 150px;
   	text-align: center;
-  	margin: 10px 0;
+  	margin: 10px auto;
+
+		border: 1px solid blue;
   }
  }
 	
@@ -635,6 +637,7 @@ footer li{
 	letter-spacing: .2em;
 	text-decoration: none;
 	color: #fff;
+	/* border: 1px solid blue; */
 }
 
 .footer_list a:hover{}
@@ -643,7 +646,7 @@ footer .social{
 	width: 100%;
 	text-align: center;
 	margin: 10px 0;
-	/*border: 1px solid blue;*/
+	/* border: 1px solid blue; */
 }
 
 .social h3{
@@ -670,5 +673,5 @@ footer p{
 	text-align: center;
 	margin: 20px 0;
 	margin-top: 40px;
-	border: 1px solid re/*d*/;
+	/* border: 1px solid red; */
 }
