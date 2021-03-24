@@ -4,245 +4,790 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style _main.css">
-	<title>速配管理</title>
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<title>速配</title>
 </head>
 <body>
-	<div class="wrapper">
 
-		<!-- TOP  Block -->
-		<div class="top">
+	<!-- 網頁的標頭開始 -->
+  
+  <header>
+  <nav class="head01">
+  	<input type="checkbox" id="burger">  	
+  	<a href="index.html"><img src="img/LOGO.png"></a>
+  	<label for="burger" class="burger_btn"><span>選單</span></label>
+  	<ul class="menu2">
+		<li><a href="about.html">關於我們</a></li>
+		<li><a href="main.html">速配管理</a></li>
+		<li><a href="article.html">健身文章</a></li>
+		<li><a href="question.html">常見問題</a></li>
+		<li><a href="store.html">店家推薦</a></li>
+	</ul>
+  </nav>
+  </header>
 
-			<div class="top-logo">
-			<a href="index.html"><img src="img/LOGO.png" title="速配"></a>
+
+  	<!-- 網頁的選單、導覽開始 -->
+	<nav>
+
+   <div class=logo></div>
+   
+		<ul class="menu">
+			<li><a href="about.html">關於我們</a></li>
+			<li><a href="main.html">速配管理</a></li>
+			<li><a href="article.html">健身文章</a></li>
+			<li><a href="question.html">常見問題</a></li>
+			<li><a href="store.html">店家推薦</a></li>
+		</ul>
+
+	</nav>
+
+	<!-- 網頁的選單、導覽結束 -->
+
+  
+
+	<!-- 網頁的主要內容輪播圖開始 -->  
+	<main><img src="img/fresh_kv0.jpg"></main>
+
+<!-- 食物輪播圖套件測試 開始 -->
+<section>
+	<h2 class="h2">精選熱門食物</h2>
+<div class="swiper-container">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide">
+			<img src="./img/product_1.jpg">
+			<h3>統一陽光無糖高纖豆漿1</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
 			</div>
-
-			<ul>
-        <li class="nav-list">
-					<a href="about.html"><img src="img/icon_1.png" title="關於我們"></a>
-					<a href="about.html">關於我們</a>
-				</li>
-				<li class="nav-list">
-					<a href="main.html"><img src="img/icon_2.png" title="速配管理"></a>
-					<a href="main.html">速配管理</a>
-				</li>
-				<li class="nav-list">
-					<a href="article.html"><img src="img/icon_3.png" title="健身文章"></a>
-					<a href="article.html">健身文章</a>
-				</li>
-				<li class="nav-list">
-					<a href="question.html"><img src="img/icon_4.png" title="常見問題"></a>
-					<a href="question.html">常見問題</a>
-				</li>
-				<li class="nav-list">
-					<a href="store.html"><img src="img/icon_5.png" title="店家推薦"></a>
-					<a href="store.html">店家推薦</a>
-				</li>
-			</ul>
-		</div>
-
-		<!---------- Main Block ---------->
-		<div class="main_section">
-
-			<div class="main_section_1">
-				<div class="main_section-box_1">
-
-					<div class="bread-1">
-					<!-- 麵包屑 -->
-					<p>速配 / 速配管理 </p>	
-					</div>
-
-					<div class="main_section-main_1">
-						<h2>速配管理</h2>
-						<p>用最快的速度搭配今天的餐點！</br>
-一天的卡路里、蛋白質、碳水化合物、脂肪都幫您計算好囉！</p>
-
-
-					</div>
-				</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
 			</div>
-
-		<!-- Main Block 2 / 總熱量資訊 -->
-		<div class="main_block_cal">
-			<div class="cal_left_block">
-				<div class="cal_4_block">
-					
-						<div class="allcal allcal_1">
-							<img src="img/cal_icon_1.png" title="食物">
-				      <h2>總熱量 (大卡)</h2>
-						</div>
-
-						<div class="allcal allcal_2">
-							<img src="img/cal_icon_2.png" title="食物">
-				      <h2>蛋白質 (g)</h2>
-						</div>
-
-						<div class="allcal allcal_3">
-							<img src="img/cal_icon_3.png" titsle="食物">
-				      <h2>脂肪 (g)</h2>
-						</div>
-
-						<div class="allcal allcal_4">
-							<img src="img/cal_icon_4.png" title="食物">
-				      <h2>碳水化合物(g)</h2>
-					  </div>
-
-				</div>
-				<div class="cal_right_block">
-				<p>請至下方選擇食物與飲品可計算總營養素！</p>
-			</div>
-			</div>
-			<!-- 左方四格區塊結束 -->
-
-			<!-- 右方區塊結束 -->
-			<div class="boder_bottom"></div>
-
-		</div>
-		<!-- Main Block 3 -->
-		<div class="main_block_3">
-
-			<div class="main_block_all">
-			<div class="main_top">
-				<img src="img/icon_6.png" title="食物">
-				<h2>選擇食物</h2>
-			</div>
-
-			<div class="hot-product">
-				<img class="left_button" src="img/turn left icon.png">
-				<ul>
-					<li class="product_1">
-						<img src="img/product_1.jpg" alt="">
-						<h3>統一陽光無糖高纖豆漿</h3>
-						<p>熱量(大卡)&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;183</br>蛋白質(g)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;19.3</br>碳水化合物(g)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;16.5</p>
-					</li>
-					<li>
-						<img src="img/product_2.jpg" alt="">
-						<h3>統一陽光無糖高纖豆漿</h3>
-						<p>熱量(大卡)&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;183</br>蛋白質(g)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;19.3</br>碳水化合物(g)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;16.5</p>
-					</li>
-					<li>
-						<img src="img/product_3.jpg" alt="">
-						<h3>統一陽光無糖高纖豆漿</h3>
-						<p>熱量(大卡)&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;183</br>蛋白質(g)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;19.3</br>碳水化合物(g)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;16.5</p>
-					</li>
-					<li class="product_4">
-						<img src="img/product_4.jpg" alt="">
-						<h3>統一陽光無糖高纖豆漿</h3>
-						<p>熱量(大卡)&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;183</br>蛋白質(g)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;19.3</br>碳水化合物(g)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;16.5</p>
-					</li>
-					<li>
-						<img src="img/product_5.jpg" alt="">
-						<h3>統一陽光無糖高纖豆漿</h3>
-						<p>熱量(大卡)&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;183</br>蛋白質(g)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;19.3</br>碳水化合物(g)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;16.5</p>
-					</li>
-				</ul>
-				<img class="right_button" src="img/turn right icon.png">
-			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
 			</div>
 		</div>
 
-		<!-- Main Block 4 -->
-
-		<div class="main_block_4">
-
-			<div class="main_block_all">
-			<div class="main_top">
-				<img src="img/icon_7.png" title="飲料">
-				<h2>選擇飲品</h2>
+		<div class="swiper-slide">
+			<img src="./img/product_2.jpg">
+			<h3>統一陽光無糖高纖豆漿2</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
 			</div>
-
-			<div class="hot-product">
-				<img class="left_button" src="img/turn left icon.png">
-				<ul>
-					<li class="product_1">
-						<img src="img/product_1.jpg" alt="">
-						<h3>統一陽光無糖高纖豆漿</h3>
-						<p>熱量(大卡)&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;183</br>蛋白質(g)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;19.3</br>碳水化合物(g)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;16.5</p>
-					</li>
-					<li>
-						<img src="img/product_2.jpg" alt="">
-						<h3>統一陽光無糖高纖豆漿</h3>
-						<p>熱量(大卡)&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;183</br>蛋白質(g)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;19.3</br>碳水化合物(g)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;16.5</p>
-					</li>
-					<li>
-						<img src="img/product_3.jpg" alt="">
-						<h3>統一陽光無糖高纖豆漿</h3>
-						<p>熱量(大卡)&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;183</br>蛋白質(g)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;19.3</br>碳水化合物(g)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;16.5</p>
-					</li>
-					<li class="product_4">
-						<img src="img/product_4.jpg" alt="">
-						<h3>統一陽光無糖高纖豆漿</h3>
-						<p>熱量(大卡)&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;183</br>蛋白質(g)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;19.3</br>碳水化合物(g)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;16.5</p>
-					</li>
-					<li>
-						<img src="img/product_5.jpg" alt="">
-						<h3>統一陽光無糖高纖豆漿</h3>
-						<p>熱量(大卡)&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;183</br>蛋白質(g)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;19.3</br>碳水化合物(g)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;16.5</p>
-					</li>
-				</ul>
-				<img class="right_button" src="img/turn right icon.png">
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
 			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
 			</div>
 		</div>
 
-		<!-- Footer -->
-		<footer>
-			<div class="footer_all">
-			<!-- 左上LOGO -->
-			<div class="footer_logo">
-			<img src="img/LOGO.png" title="飲食管理">
+		<div class="swiper-slide">
+			<img src="./img/product_3.jpg">
+			<h3>統一陽光無糖高纖豆漿3</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
 			</div>
-      <!-- 底層三大分類 -->
-			<div class="footer-sel">
-
-				<div class="footer_content_1">
-					<h3>內容分類</h3>
-					<ul>
-						<li><a href="about.html">關於我們</a></li>
-						<li><a href="main.html">速配管理</a></li>
-						<li><a href="question.html">常見問題</a></li>
-						<li><a href="store.html">店家推薦</a></li>
-						<li><a href="form.html">聯絡我們</a></li>
-					</ul>
-				</div>
-
-				<div class="footer_content_2">
-					<h3>文章分類</h3>
-					<ul>
-						<li><a href="article.html">重訓教學</a></li>
-						<li><a href="article.html">健康知識</a></li>
-						<li><a href="article.html">飲食知識</a></li>
-						<li><a href="article.html">減重知識</a></li>
-						<li><a href="article.html">更多文章</a></li>
-					</ul>
-				</div>
-
-				<div class="footer_content_3">
-					<h3>好站連結</h3>
-					<ul>
-						<li><a href="#">康健雜誌</a></li>
-						<li><a href="#">iFit愛瘦身</a></li>
-						<li><a href="#">PEETA FITNESS</a></li>
-						<li><a href="#">NOTORIOUS</a></li>
-						<li><a href="#">知名營養師</a></li>
-					</ul>
-				</div>
-
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
 			</div>
-
-			<div class="footer_social">
-				<h3>Follow Us</h3>
-
-				<ul>
-					<li><a href="https://www.facebook.com/"><img src="img/facebook.png" title="facebook"></a></li>
-					<li><a href="#"><img src="img/instagram.png" title="instagram"></a></li>
-					<li><a href="#"><img src="img/line.png" title="line"></a></li>
-				</ul>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
 			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_4.jpg">
+			<h3>統一陽光無糖高纖豆漿4</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
 			</div>
-			
-		</footer>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿5</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿6</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿7</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿8</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿9</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿10</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿11</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿12</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
 
 	</div>
+	<!-- Add Pagination -->
+	<div class="swiper-pagination"></div>
+	<!-- Add Arrows -->
+	<div class="swiper-button-next"></div>
+	<div class="swiper-button-prev"></div>
+</div>
+</section>
 
+<!-- 食物輪播圖套件測試 結束 -->
+
+<!-- 食物輪播圖套件測試 開始 -->
+<section>
+	<h2 class="h2">精選熱門飲品</h2>
+<div class="swiper-container">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide">
+			<img src="./img/product_1.jpg">
+			<h3>統一陽光無糖高纖豆漿1</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_2.jpg">
+			<h3>統一陽光無糖高纖豆漿2</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_3.jpg">
+			<h3>統一陽光無糖高纖豆漿3</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_4.jpg">
+			<h3>統一陽光無糖高纖豆漿4</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿5</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿6</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿7</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿8</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿9</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿10</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿11</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿12</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+
+	</div>
+	<!-- Add Pagination -->
+	<div class="swiper-pagination"></div>
+	<!-- Add Arrows -->
+	<div class="swiper-button-next"></div>
+	<div class="swiper-button-prev"></div>
+</div>
+</section>
+
+<!-- 食物輪播圖套件測試 結束 -->
+
+<!-- 食物輪播圖套件測試 開始 -->
+<section>
+	<h2 class="h2">精選其他商品</h2>
+<div class="swiper-container">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide">
+			<img src="./img/product_1.jpg">
+			<h3>統一陽光無糖高纖豆漿1</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_2.jpg">
+			<h3>統一陽光無糖高纖豆漿2</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_3.jpg">
+			<h3>統一陽光無糖高纖豆漿3</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_4.jpg">
+			<h3>統一陽光無糖高纖豆漿4</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿5</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿6</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿7</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿8</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿9</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿10</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿11</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+		<div class="swiper-slide">
+			<img src="./img/product_5.jpg">
+			<h3>統一陽光無糖高纖豆漿12</h3>
+			<div class="item">
+				<div class="cal">熱量(大卡)</div>
+				<div class="Numerical">183</div>
+			</div>
+			<div class="item">
+				<div class="cal">蛋白質(g)</div>
+				<div class="Numerical">19.3</div>
+			</div>
+			<div class="item">
+				<div class="cal">碳水化合物(g) </div>
+				<div class="Numerical">16.5</div>
+			</div>
+		</div>
+
+
+	</div>
+	<!-- Add Pagination -->
+	<div class="swiper-pagination"></div>
+	<!-- Add Arrows -->
+	<div class="swiper-button-next"></div>
+	<div class="swiper-button-prev"></div>
+</div>
+</section>
+
+<!-- 食物輪播圖套件測試 結束 -->
+
+	
+
+  <!-- 網頁的頁尾內容開始 -->
+<footer>
+	<div class="footer_left">
+		<div class="img">
+	<a href="index.html"><img src="img/LOGO.png"></a>
+	  </div>
+	<ul class="footer_list">
+		<li><a href="about.html">關於我們</a></li>
+		<li><a href="main.html">速配管理</a></li>
+		<li><a href="article.html.html">健身文章</a></li>
+	
+		<li><a href="question.html">常見問題</a></li>
+		<li><a href="store.html">店家推薦</a></li>
+		<li><a href="form.html">聯絡我們</a></li>
+
+	</ul>
+	</div>
+
+	<div class="social">
+		<h3>Follow Us</h3>
+		<div class="btn">
+			<a href="#"><img src="./img/facebook.png"></a>
+			<a href="#"><img src="img/instagram.png"></a>
+			<a href="#"><img src="./img/youtube.png"></a>
+		</div>
+	</div>
+	<p>© 2021 Copyright, All Rights Reserved.</p>
+</footer>
+
+
+
+
+  <!-- 網頁的頁尾內容結束 -->
+
+	  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 2,
+      spaceBetween: 20,
+      slidesPerGroup: 2,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+			breakpoints: {
+        768: {
+					slidesPerView: 3,
+          spaceBetween: 30,
+          // slidesPerGroup: 1,
+        },
+				1200: {
+					slidesPerView: 4,
+          spaceBetween: 25,
+          slidesPerGroup: 4,
+        },
+
+			},
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+			
+			// autoplay: {
+      //     delay: 1500,
+      //     disableOnInteraction: false
+      //   },
+
+    });
+
+		
+		</script>
+  
 </body>
 </html>

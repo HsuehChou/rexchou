@@ -246,7 +246,6 @@ main img{
 			width: 50%;
 		}
 	 }
-
 	 @media screen and (min-width: 1200px) {
 		.swiper-container .swiper-slide{
 			width: 33.33333%;
@@ -397,7 +396,6 @@ li h3{
   content:"熱量(大卡)";
   color:red;
 }
-
 li .cal::after{
   content:"183";
   color:red;
