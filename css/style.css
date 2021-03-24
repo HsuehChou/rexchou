@@ -446,7 +446,7 @@ article .sel{
 
 @media screen and (max-width: 500px) {
   article .sel  {
-    max-width: 400px;
+    max-width: 350px;
   }
  }
 
@@ -464,7 +464,7 @@ article .article_box1{
 
 @media screen and (max-width: 500px) {
   .article_box1 img  {
-    width: 400px;
+    width: 350px;
   }
  }
 
