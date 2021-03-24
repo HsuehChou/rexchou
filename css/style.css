@@ -349,13 +349,13 @@ section li{
 	/*outline: 3px solid black;*/
 }
 
-section li:hover{
+/* section li:hover{
  z-index: 1;
  border-color: white;
  transform: scale(1.1);
  box-shadow:  2px 2px 2px 2px rgba(0,0,0,.1);
  transition: all .5s; 
-}
+} */
 
 li img{
 	display: block;
@@ -435,14 +435,14 @@ article .sel{
 	/*outline: 2px solid blue;*/
 }
 
-article .sel:hover{
+/* article .sel:hover{
  z-index: 1;
  border-color: white;
  transform: scale(1.1);
  box-shadow:  2px 2px 2px 2px rgba(0,0,0,.1);
  transition: all .5s; 
  opacity: .6;
-}
+} */
 
 @media screen and (max-width: 500px) {
   article .sel  {
