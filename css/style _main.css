@@ -425,7 +425,7 @@ footer{
 
 @media screen and (max-width: 500px) {
   .footer_left  {
-flex-wrap: wrap;
+  flex-wrap: wrap;
   }
  }
 
@@ -480,7 +480,7 @@ footer li{
   footer li  {
   	flex-basis: 150px;
   	text-align: center;
-  	margin: 10px 0;
+  	margin: 10px auto;
   }
  }
 	

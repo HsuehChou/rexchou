@@ -538,7 +538,7 @@ footer li{
   footer li  {
   	flex-basis: 150px;
   	text-align: center;
-  	margin: 10px 0;
+  	margin: 10px auto;
   }
  }
 	
