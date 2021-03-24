@@ -319,12 +319,6 @@ article .sel{
   }
  }
 
- @media screen and (min-width: 390px) (max-width: 844px)and {
-  article .sel  {
-    max-width: 100px;
-  }
- }
-
 article .article_box1{
 	/* background-color: #fff; */
 }
@@ -339,11 +333,7 @@ article .article_box1{
   }
  }
 
- @media screen and (min-width: 390px) (max-width: 844px)and {
-  .article_box1 img {
-    max-width: 100px;
-  }
- }
+
 
 .article_box1 h3{
 	font-size: 20px;

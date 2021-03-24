@@ -262,18 +262,21 @@ main img{
 	}
 
 	.swiper-slide img{
+		width: 200px;
 		/* padding-top: 10px; */
 		/* border: 1px solid green; */
 	}
+
 	.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
 		display: none;
 	}
 
 	.swiper-slide .item{
-		text-align: center;
-		margin: 10px 0;
+		width: 200px;
+		/* text-align: center; */
+		margin: 10px auto;
 		display: flex;
-		/*outline: 3px solid black;*/
+		/* outline: 3px solid black; */
 	}
 	
 	.swiper-slide .cal{
@@ -326,7 +329,7 @@ section .h2,article .h2,aside .h2{
  }
 
 section ul{
-	width: 120%;
+	width: 100%;
 	padding: 10px 0;
 	box-sizing: border-box;
 	display: flex;
