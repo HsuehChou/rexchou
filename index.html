@@ -568,12 +568,29 @@
 	<p>© 2021 Copyright, All Rights Reserved.</p>
 </footer>
 
-
+<button type="button" id="BackTop" class="toTop-arrow"></button>
 
 
   <!-- 網頁的頁尾內容結束 -->
 
 	  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script>
+			$(function(){
+				$('#BackTop').click(function(){ 
+					$('html,body').animate({scrollTop:0}, 333);
+				});
+				$(window).scroll(function() {
+					if ( $(this).scrollTop() > 300 ){
+						$('#BackTop').fadeIn(222);
+					} else {
+						$('#BackTop').stop().fadeOut(222);
+					}
+				}).scroll();
+			});
+			</script>
+		
 		<script>
     var swiper = new Swiper('.swiper-container', {
       slidesPerView: 1,
@@ -613,5 +630,7 @@
 		
 		</script>
   
+
+
 </body>
 </html>

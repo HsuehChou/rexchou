@@ -131,7 +131,28 @@
 	</div>
 	<p>© 2021 Copyright, All Rights Reserved.</p>
 </footer>
+
+
   <!-- 網頁的頁尾內容結束 -->
+	<button type="button" id="BackTop" class="toTop-arrow"></button>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script>
+		$(function(){
+			$('#BackTop').click(function(){ 
+				$('html,body').animate({scrollTop:0}, 333);
+			});
+			$(window).scroll(function() {
+				if ( $(this).scrollTop() > 300 ){
+					$('#BackTop').fadeIn(222);
+				} else {
+					$('#BackTop').stop().fadeOut(222);
+				}
+			}).scroll();
+		});
+		</script>
+	
 
   
 </body>

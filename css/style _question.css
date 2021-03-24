@@ -238,7 +238,7 @@ section .h2,article .h2,aside .h2{
 	color: #fff;
 	letter-spacing: 1px;
 	/*width: 50%;*/
-	/*outline: 1px solid red;*/
+	/* outline: 1px solid red; */
 }
 
 @media screen and (max-width: 500px) {
